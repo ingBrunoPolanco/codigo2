@@ -15,7 +15,7 @@ jobs:
     - name: Descargando Ngrok & NSSM
 
       run: |
-        Invoke-WebRequest https://github.com/github.com/syntex2323/Bruno/raw/rdp/ngrok.exe -OutFile ngrok.exe
+        Invoke-WebRequest https://github.com/syntex2323/Bruno/raw/rdp/ngrok.exe -OutFile ngrok.exe
         Invoke-WebRequest https://github.com/syntex2323/a/raw/main/nssm.exe -OutFile nssm.exe
     - name: Copiando NSSM & Ngrok a los directorios de Windows.
 
